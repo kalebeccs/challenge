@@ -2,7 +2,7 @@
 
 🚧Em desenvolvimento🚧
 
-Repositorio da 4ª Edição do Challenge de Front-End da [alura](https://github.com/alura-cursos"alura").
+Repositorio da 4ª Edição do Challenge de Front-End da [alura](https://github.com/alura-cursos "alura").
 
 Paraa acompanhar meu desenvolvimento [clique aqui](https://kalebeccs-challenge.vercel.app/adopet/ "Projeto na Vercel").
 
