@@ -18,7 +18,6 @@
 }
 
 .cadastro__logo {
-
     max-height: 2.125rem;
 }
 
@@ -29,25 +28,4 @@
 
 .cadastro__texto {
     color: var(--azul);
-}
-
-.cadastro__formulario {
-    display: flex;
-    flex-direction: column;
-    gap: 1.25rem;
-}
-
-.cadastro__botao {
-    outline: none;
-    border: none;
-    background-color: var(--coral);
-    color: var(--branco);
-    font-weight: 600;
-    font-size: 1rem;
-    padding: .75rem 0;
-    border-radius: .5rem;
-}
-
-.cadastro__botao:hover {
-    background-color: var(--coral-hover);
 }
