@@ -35,24 +35,30 @@
             </h1>
             <h2 class="cadastro__subtitulo">Ainda não tem cadastro?</h2>
             <p class="cadastro__texto">Então, antes de buscar seu melhor amigo, precisamos de alguns dados:</p>
-            <form class="cadastro__formulario" action="">
-                <fieldset class="formulario__fiel">
-                    <label for="" class="formulario__label">Email</label>
-                    <input type="text" class="formulario__input">
+            <form class="formulario" action="">
+                <fieldset class="formulario__field">
+                    <label for="email" class="formulario__label">Email</label>
+                    <input id="email" type="email" class="formulario__input" placeholder="Escolha seu melhor email">
                 </fieldset>
-                <fieldset class="formulario__fiel">
-                    <label for="" class="formulario__label">Nome</label>
-                    <input type="text" class="formulario__input">
+                <fieldset class="formulario__field">
+                    <label for="nome" class="formulario__label">Nome</label>
+                    <input id="nome" type="text" class="formulario__input" placeholder="Digite seu nome completo">
                 </fieldset>
-                <fieldset class="formulario__fiel">
-                    <label for="" class="formulario__label">Senha</label>
-                    <input type="text" class="formulario__input">
+                <fieldset class="formulario__field">
+                    <label for="senha" class="formulario__label">Senha</label>
+                    <div class="formulario__password">
+                        <input id="senha" type="password" class="formulario__input" placeholder="Crie uma senha">
+                        <span class="formulario__icon"></span>
+                    </div>
                 </fieldset>
-                <fieldset class="formulario__fiel">
-                    <label for="" class="formulario__label">Confirma sua senha</label>
-                    <input type="text" class="formulario__input">
+                <fieldset class="formulario__field">
+                    <label for="confirmaSenha" class="formulario__label">Confirma sua senha</label>
+                    <div class="formulario__password">
+                        <input id="confirmaSenha" type="password" class="formulario__input" placeholder="Repita a senha criada acima">
+                        <span class="formulario__icon"></span>
+                    </div>
                 </fieldset>
-                <button class="cadastro__botao" type="submit">Cadastrar</button>
+                <button class="formulario__botao" type="submit">Cadastrar</button>
             </form>
         </section>
     </main>
