@@ -37,18 +37,19 @@
             <form class="formulario" action="">
                 <fieldset class="formulario__field">
                     <label for="">Email</label>
-                    <input class="formulario__input" type="email" placeholder="Insira seu email">
+                    <input class="formulario__input" type="email" placeholder="Insira seu email" required>
                 </fieldset>
                 <fieldset class="formulario__field">
                     <label for="">Senha</label>
                     <div class="formulario__password">
-                        <input id="senha" type="password" class="formulario__input" placeholder="Insira sua senha">
+                        <input id="senha" type="password" class="formulario__input formulario__input--senha" placeholder="Insira sua senha" required>
                         <span class="formulario__icon"></span>
                     </div>
                 </fieldset>
-                <a class="formulario__reset-senha" href="#">Esqueci minha senha</a>
+                <a class="formulario__span" href="#">Esqueci minha senha</a>
                 <button class="formulario__botao" type="submit">Entrar</button>
             </form>
+            <span class="conteudo__forma"></span>
         </section>
     </main>
     <footer class="rodape">
