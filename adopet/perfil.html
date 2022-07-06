@@ -25,7 +25,9 @@
                 </li>
             </ul>
         </nav>
-        <img class="cabecalho__perfil" src="./assets/img/usuario.svg" alt="">
+        <a href="perfil.html" class="cabecalho__link">
+            <img class="cabecalho__perfil" src="./assets/img/user/user.png" alt="">
+        </a>
         <span class="cabecalho__fundo"></span>
     </header>
     <main class="conteudo">
@@ -34,24 +36,28 @@
             <form class="formulario formulario--cinza" action="">
                 <h3 class="formulario__titulo">Perfil</h3>
                 <fieldset class="formulario__field">
-                    <label for="" class="formulario__label formulario__label--azul">Foto</label for="">
-                    <input type="file">
+                    <label for="foto" class="formulario__label formulario__label--azul formulario__label--foto">
+                        Foto
+                        <img class="formulario__img" src="./assets/img/user/user.png" alt="Foto do perfil">
+                        <input id="foto" type="file" class="formulario__file">
+                    </label>
+                    <span class="formulario__span">Clique na foto para editar</span>
                 </fieldset>
                 <fieldset class="formulario__field">
-                    <label for="" class="formulario__label formulario__label--azul">Nome</label>
-                    <input type="text" class="formulario__input formulario__input--branco">
+                    <label for="nome" class="formulario__label formulario__label--azul">Nome</label>
+                    <input id="nome" type="text" class="formulario__input formulario__input--branco" value="Joana Magalhães" required>
                 </fieldset>
                 <fieldset class="formulario__field">
-                    <label for="" class="formulario__label formulario__label--azul">Telefone</label>
-                    <input type="text" class="formulario__input formulario__input--branco">
+                    <label for="telefone" class="formulario__label formulario__label--azul">Telefone</label>
+                    <input id="telefone" type="tel" class="formulario__input formulario__input--branco" value="55 11 XXXXXXXXX">
                 </fieldset>
                 <fieldset class="formulario__field">
-                    <label for="" class="formulario__label formulario__label--azul">Cidade</label>
-                    <input type="text" class="formulario__input formulario__input--branco">
+                    <label for="cidade" class="formulario__label formulario__label--azul">Cidade</label>
+                    <input id="cidade" type="text" class="formulario__input formulario__input--branco" value="São Paulo">
                 </fieldset>
                 <fieldset class="formulario__field">
-                    <label for="" class="formulario__label formulario__label--azul">Sobre</label>
-                    <textarea class="formulario__input formulario__input--branco" name="" id="" cols="30" rows="10"></textarea>
+                    <label for="sobre" class="formulario__label formulario__label--azul">Sobre</label>
+                    <textarea id="sobre" class="formulario__textarea" cols="30" rows="10">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati.</textarea>
                 </fieldset>
                 <button class="formulario__botao" type="submit">Salvar</button>
             </form>
