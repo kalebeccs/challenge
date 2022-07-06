@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login | AdoPet</title>
+    <link rel="shorcut icon" href="./assets/img/logo-azul-a.svg">
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="./assets/css/styles.css">
+</head>
+<body>
+    <header class="cabecalho">
+        <nav class="cabecalho__navegacao">
+            <ul class="cabecalho__lista">
+                <li class="cabecalho-lista__item">
+                    <a class="cabecalho-lista__link" href="index.html">
+                        <img class="cabecalho-lista__icon" src="./assets/img/casa.svg" alt="">
+                    </a>
+                </li>
+                <li class="cabecalho-lista__item">
+                    <a class="cabecalho-lista__link" href="mensagem.html">
+                        <img class="cabecalho-lista__icon" src="./assets/img/mensagem.svg" alt="">
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        <span class="cabecalho__fundo"></span>
+        <span class="cabecalho__patas"></span>
+    </header>
+    <main class="conteudo">
+        <section class="login">
+            <h1 class="login__titulo">
+                <img class="login__logo" src="./assets/img/logo-azul.svg" alt="">
+            </h1>
+            <h2 class="login__subtitulo">Já tem conta? Faça seu login:</h2>
+            <form class="formulario" action="">
+                <fieldset class="formulario__field">
+                    <label for="">Email</label>
+                    <input class="formulario__input" type="email" placeholder="Insira seu email">
+                </fieldset>
+                <fieldset class="formulario__field">
+                    <label for="">Senha</label>
+                    <div class="formulario__password">
+                        <input id="senha" type="password" class="formulario__input" placeholder="Insira sua senha">
+                        <span class="formulario__icon"></span>
+                    </div>
+                </fieldset>
+                <a class="formulario__reset-senha" href="#">Esqueci minha senha</a>
+                <button class="formulario__botao" type="submit">Entrar</button>
+            </form>
+        </section>
+    </main>
+    <footer class="rodape">
+        <p class="rodape__texto">2022 - Desenvolvido por Alura.</p>
+    </footer>
+</body>
+</html>
