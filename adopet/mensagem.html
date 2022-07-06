@@ -25,7 +25,9 @@
                 </li>
             </ul>
         </nav>
-        <img class="cabecalho__perfil" src="./assets/img/usuario.svg" alt="">
+        <a href="perfil.html" class="cabecalho__link">
+            <img class="cabecalho__perfil" src="./assets/img/usuario.svg" alt="">
+        </a>
         <span class="cabecalho__fundo"></span>
     </header>
     <main class="conteudo">
@@ -33,20 +35,20 @@
             <h2 class="mensagem__titulo">Envie uma mensagem para a pessoa ou instituição que está cuidado do animal:</h2>
             <form class="formulario formulario--cinza" action="">
                 <fieldset class="formulario__field">
-                    <label class="formulario__label formulario__label--azul" for="">Nome</label>
-                    <input class="formulario__input formulario__input--branco" type="text" placeholder="Insira seu nome completo">
+                    <label class="formulario__label formulario__label--azul" for="nome">Nome</label>
+                    <input class="formulario__input formulario__input--branco" id="nome" type="text" placeholder="Insira seu nome completo" required>
                 </fieldset>
                 <fieldset class="formulario__field">
-                    <label class="formulario__label formulario__label--azul" for="">Telefone</label>
-                    <input class="formulario__input formulario__input--branco" type="text" placeholder="Insira seu telefone e/ou whatsapp">
+                    <label class="formulario__label formulario__label--azul" for="telefone">Telefone</label>
+                    <input class="formulario__input formulario__input--branco" id="telefone" type="tel" placeholder="Insira seu telefone e/ou whatsapp" required>
                 </fieldset>
                 <fieldset class="formulario__field">
-                    <label class="formulario__label formulario__label--azul" for="">Nome do animal</label>
-                    <input class="formulario__input formulario__input--branco" type="text" placeholder="Por qual animal você se interessou?">
+                    <label class="formulario__label formulario__label--azul" for="animal">Nome do animal</label>
+                    <input class="formulario__input formulario__input--branco" id="animal" type="text" placeholder="Por qual animal você se interessou?" required>
                 </fieldset>
                 <fieldset class="formulario__field">
-                    <label class="formulario__label formulario__label--azul" for="">Mensagem</label>
-                    <textarea class="formulario__input formulario__input--branco" name="" id="" cols="30" rows="10" placeholder="Escreva sua mensagem."></textarea>
+                    <label class="formulario__label formulario__label--azul" for="mensagem">Mensagem</label>
+                    <textarea class="formulario__textarea" id="mensagem" cols="30" rows="10" placeholder="Escreva sua mensagem." required></textarea>
                 </fieldset>
                 <button class="formulario__botao" type="submit">Enviar</button>
             </form>
