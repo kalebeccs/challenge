@@ -1,0 +1,20 @@
+.login {
+    display: flex;
+    flex-direction: column;
+    width: 85%;
+    margin: 0 auto;
+    gap: 1.5rem;
+}
+
+.login__titulo {
+    margin: 0 auto;
+    width: 90%;
+}
+
+.login__logo {
+    max-height: 2.125rem;
+}
+
+.login__subtitulo {
+    color: var(--azul);
+}

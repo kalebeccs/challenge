@@ -1,0 +1,14 @@
+.formulario__botao {
+    outline: none;
+    border: none;
+    background-color: var(--coral);
+    color: var(--branco);
+    font-weight: 600;
+    font-size: 1rem;
+    padding: .75rem 0;
+    border-radius: .5rem;
+}
+
+.formulario__botao:hover {
+    background-color: var(--coral-hover);
+}

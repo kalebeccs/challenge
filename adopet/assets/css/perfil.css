@@ -1,0 +1,9 @@
+.perfil {
+
+}
+
+.perfil__titulo {
+    color: var(--azul);
+    margin: 0 auto 1rem auto;
+    width: 65%;
+}

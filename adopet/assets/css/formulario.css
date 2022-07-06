@@ -1,0 +1,29 @@
+@import url(./form/fieldset.css);
+@import url(./form/label.css);
+@import url(./form/input.css);
+@import url(./form/button.css);
+@import url(./form/password.css);
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+}
+
+.formulario--cinza {
+    background-color: var(--cinza-claro);
+    padding: 2rem 1rem;
+    margin: 0 1.5rem 1rem 1.5rem;
+    border-radius: .5rem;
+}
+
+.formulario__titulo {
+    font-weight: 600;
+    font-size: 1.3125rem;
+}
+
+.formulario__reset-senha {
+    color: var(--coral);
+    font-size: .75rem;
+    margin-top: -.5rem;
+}

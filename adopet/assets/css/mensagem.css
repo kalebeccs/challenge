@@ -1,0 +1,9 @@
+.mensagem {
+
+}
+
+.mensagem__titulo {
+    color: var(--azul);
+    margin: 0 auto 1rem auto;
+    width: 60%;
+}

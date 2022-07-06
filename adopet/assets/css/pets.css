@@ -1,0 +1,62 @@
+.pets {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.pets__titulo {
+    color: var(--azul);
+    width: 60%;
+    margin: 0 auto;
+}
+
+.pets__lista {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.pets-lista__item {
+    background-color: var(--cinza-claro);
+    padding: 1.5rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    text-align: left;
+}
+
+.pet__nome {
+    color: var(--azul);
+    font-weight: 600;
+    margin-bottom: .5rem;
+}
+
+.pet__info {
+    font-size: .875rem;
+    line-height: 1.25rem;
+    margin-bottom: 1.5rem;
+}
+
+.pet__local {
+    font-size: .875rem;
+    line-height: 1rem;
+}
+
+.pet__contato {
+    display: flex;
+    align-items: center;
+}
+
+.pet__icon {
+    background-image: url(../img/chat.svg);
+    background-position: left center;
+    background-repeat: no-repeat;
+    height: 24px;
+    width: 24px;
+}
+
+.pet__link {
+    color: var(--cinza-escuro);
+    font-size: .625rem;
+    text-decoration: none;
+}
