@@ -16,6 +16,14 @@
     text-decoration: none;
 }
 
+.cabecalho-lista__icon {
+    fill: var(--branco);
+}
+
+.cabecalho-lista__icon:hover {
+    fill: var(--coral);
+}
+
 .cabecalho__perfil {
     width: 2.5rem;
     height: 2.5rem;
