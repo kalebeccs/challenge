@@ -1,6 +1,9 @@
 .cabecalho {
     position: relative;
-    padding: 2rem;
+    padding: 2.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .cabecalho__lista {
