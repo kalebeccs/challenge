@@ -9,3 +9,8 @@
     width: 100%;
     margin-bottom: .5rem;
 }
+
+.formulario__label--foto {
+    display: flex;
+    flex-direction: column;
+}

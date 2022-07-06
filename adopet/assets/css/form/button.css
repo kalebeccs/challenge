@@ -1,14 +1,26 @@
 .formulario__botao {
     outline: none;
-    border: none;
+    border: 1px solid var(--coral);
     background-color: var(--coral);
     color: var(--branco);
     font-weight: 600;
     font-size: 1rem;
     padding: .75rem 0;
     border-radius: .5rem;
+    cursor: pointer;
 }
 
 .formulario__botao:hover {
     background-color: var(--coral-hover);
+    border: 1px solid var(--coral-hover);
+}
+
+.formulario__botao:active {
+    background-color: var(--coral-active);
+    border: 1px solid var(--coral);
+}
+
+.formulario__botao--index {
+    text-decoration: none;
+    filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, 0.25));
 }
