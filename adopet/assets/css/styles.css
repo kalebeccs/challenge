@@ -1,8 +1,13 @@
 @import url(./cabecalho.css);
 @import url(./rodape.css);
+@import url(./formulario.css);
 
 @import url(./bem-vindo.css);
 @import url(./cadastro.css);
+@import url(./login.css);
+@import url(./pets.css);
+@import url(./mensagem.css);
+@import url(./perfil.css);
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
 
@@ -20,6 +25,7 @@
 }
 
 body {
+    color: var(--cinza-escuro);
     font-family: var(--font-text);
     font-weight: 400;
     font-size: 1rem;
