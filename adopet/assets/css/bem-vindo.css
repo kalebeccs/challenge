@@ -1,24 +1,19 @@
-.conteudo {
-    position: relative;
-    margin-top: 5rem;
-    min-height: 100vh;
-}
-
 .bem-vindo {
     display: flex;
     flex-direction: column;
     width: 70%;
     margin: 0 auto;
-    gap: 1.5rem;
+    gap: 1rem;
 }
 
 .bem-vindo__titulo {
-    margin: 0 auto;
+    margin: 0 auto .5rem auto;
     width: 90%;
 }
 
 .bem-vindo__logo {
     width: 100%;
+    max-height: 3rem;
 }
 
 .bem-vindo__subtitulo {
@@ -36,26 +31,11 @@
     display: flex;
     flex-direction: column;
     gap: 1rem;
-    margin: 0 auto;
+    margin: .5rem auto 0 auto;
     width: 90%;
 }
 
-.bem-vindo__botao {
-    background-color: var(--coral);
-    color: var(--branco);
-    font-weight: 600;
-    font-size: 1.125rem;
-    padding: .75rem 0;
-    border-radius: .5rem;
-    text-decoration: none;
-    filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, 0.25));
-}
-
-.bem-vindo__botao:hover {
-    background-color: var(--coral-hover);
-}
-
-.bem-vindo__img {
+.bem-vindo__ilustracao {
     position: absolute;
     left: 0;
     bottom: -20px;
@@ -64,16 +44,5 @@
     background-position: center bottom;
     width: 100%;
     height: 100%;
-    z-index: -1;
-}
-
-.bem-vindo__forma {
-    position: absolute;
-    right: -10px;
-    width: 100%;
-    height: 100%;
-    background-image: url(../img/forma-2.svg);
-    background-repeat: no-repeat;
-    background-position: top right;
     z-index: -1;
 }

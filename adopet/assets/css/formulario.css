@@ -1,6 +1,7 @@
 @import url(./form/fieldset.css);
 @import url(./form/label.css);
 @import url(./form/input.css);
+@import url(./form/textarea.css);
 @import url(./form/button.css);
 @import url(./form/password.css);
 
@@ -22,8 +23,19 @@
     font-size: 1.3125rem;
 }
 
-.formulario__reset-senha {
+.formulario__span {
     color: var(--coral);
     font-size: .75rem;
     margin-top: -.5rem;
+}
+
+.formulario__img {
+    align-self: center;
+    width: 5rem;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.formulario__file {
+    display: none;
 }

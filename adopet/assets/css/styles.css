@@ -15,6 +15,7 @@
     --azul: #3772FF;
     --verde: #36D6AD;
     --coral: #FC7071;
+    --coral-active: #fb9193;
     --coral-hover: #FF9D9E;
     --branco: #FFFFFF;
     --creme: #FCF0E3;
@@ -37,4 +38,21 @@ body {
 
 .index {
     background-color: var(--azul);
+}
+
+.conteudo {
+    position: relative;
+    padding-top: 5rem;
+    min-height: calc(100vh - 110px);
+}
+
+.conteudo__forma {
+    position: absolute;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(../img/forma-2.svg);
+    background-repeat: no-repeat;
+    background-position: calc(100vw - 60px) 0;
+    z-index: -1;
 }

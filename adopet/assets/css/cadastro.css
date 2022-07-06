@@ -1,9 +1,3 @@
-.conteudo {
-    position: relative;
-    margin-top: 4rem;
-    min-height: 100vh;
-}
-
 .cadastro {
     display: flex;
     flex-direction: column;

@@ -20,6 +20,7 @@
     background-color: var(--cinza-claro);
     padding: 1.5rem;
     display: flex;
+    justify-content: center;
     align-items: center;
     gap: 1rem;
     text-align: left;
