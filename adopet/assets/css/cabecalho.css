@@ -24,6 +24,11 @@
     fill: var(--coral);
 }
 
+.cabecalho-lista__link:focus .cabecalho-lista__icon {
+    outline: none;
+    fill: var(--coral);
+}
+
 .cabecalho__perfil {
     width: 2.5rem;
     height: 2.5rem;
@@ -45,10 +50,18 @@
     position: absolute;
     top: 0;
     right: 0;
-    width: 100%;
+    width: 60%;
     height: 100vh;
     background-image: url(../img/patas.svg);
     background-repeat: no-repeat;
     background-position: calc(100vw - 130px) -10px;
     z-index: -1;
+}
+
+@media screen and (min-width: 768px) {
+    .cabecalho__fundo {
+        width: 60%;
+        height: 80vh;
+        background-size: contain;
+    }
 }
