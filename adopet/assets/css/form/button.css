@@ -15,7 +15,8 @@
     border: 1px solid var(--coral-hover);
 }
 
-.formulario__botao:active {
+.formulario__botao:active,
+.formulario__botao:focus {
     background-color: var(--coral-active);
     border: 1px solid var(--coral);
 }
