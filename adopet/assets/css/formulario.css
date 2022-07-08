@@ -29,6 +29,11 @@
     margin-top: -.5rem;
 }
 
+.formulario__span:focus {
+    outline: none;
+    font-weight: 600;
+}
+
 .formulario__img {
     align-self: center;
     width: 5rem;
