@@ -46,3 +46,15 @@
     height: 100%;
     z-index: -1;
 }
+
+@media screen and (min-width: 768px) {
+    .bem-vindo {
+        width: 50%;
+        gap: 1.5rem;
+    }
+
+    .bem-vindo__texto {
+        font-size: 1.125rem;
+        line-height: 1.625rem;
+    }
+}
