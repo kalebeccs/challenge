@@ -25,10 +25,6 @@
     border: 1px solid var(--azul);
 }
 
-.formulario__input--senha {
-    padding: .75rem 2.75rem .75rem .75rem;
-}
-
 .formulario__input--branco {
     text-align: left;
     background-color: var(--branco);
