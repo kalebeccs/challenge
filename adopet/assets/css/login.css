@@ -18,3 +18,13 @@
 .login__subtitulo {
     color: var(--azul);
 }
+
+@media screen and (min-width: 768px) {
+    .login {
+        margin-top: 4rem;
+    }
+    
+    .login__logo {
+        max-height: 4rem;
+    }
+}

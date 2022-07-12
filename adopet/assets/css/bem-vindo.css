@@ -55,6 +55,11 @@
     .bem-vindo {
         width: 50%;
         gap: 1.5rem;
+        margin-top: 4rem;
+    }
+
+    .bem-vindo__logo {
+        max-height: 4rem;
     }
 
     .bem-vindo__texto {

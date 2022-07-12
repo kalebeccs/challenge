@@ -47,13 +47,34 @@ body {
     flex-grow: 1;
 }
 
-.conteudo__forma {
+.bem-vindo::before,
+.login::before,
+.cadastro::before {
+    content: '';
     position: absolute;
+    top: 3rem;
     right: 0;
+    background: url(../img/forma-2.svg) no-repeat;
+    background-position: right 0;
     width: 100%;
-    height: 100%;
-    background-image: url(../img/forma-2.svg);
-    background-repeat: no-repeat;
-    background-position: calc(100vw - 60px) 0;
+    max-width: 5.25rem;
+    height: 26rem;
     z-index: -1;
+}
+
+@media screen and (min-width: 768px) {
+    .mensagem::before,
+    .perfil::before {
+        content: '';
+        position: absolute;
+        top: 3rem;
+        right: 0;
+        background: url(../img/forma-2.svg) no-repeat;
+        background-position: right 0;
+        width: 100%;
+        max-width: 5.25rem;
+        height: 26rem;
+        z-index: -1;
+    }
+
 }

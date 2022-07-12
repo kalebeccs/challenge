@@ -6,3 +6,13 @@
 .rodape__texto {
     color: var(--branco);
 }
+
+.rodape__link {
+    color: var(--branco);
+    text-decoration: none;
+}
+
+.rodape__link:hover {
+    color: var(--coral);
+    text-decoration: underline;
+}

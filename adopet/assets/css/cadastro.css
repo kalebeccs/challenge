@@ -8,7 +8,7 @@
 
 .cadastro__titulo {
     margin: 0 auto;
-    width: 90%;
+    width: 100%;
 }
 
 .cadastro__logo {
@@ -22,4 +22,15 @@
 
 .cadastro__texto {
     color: var(--azul);
+}
+
+@media screen and (min-width: 768px) {
+    .cadastro {
+        width: 65%;
+        margin-top: 4rem;
+    }
+
+    .cadastro__logo {
+        max-height: 4rem;
+    }
 }

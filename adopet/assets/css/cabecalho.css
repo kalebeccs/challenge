@@ -6,10 +6,28 @@
     align-items: center;
 }
 
+.cabecalho::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: url(../img/forma-1.svg) no-repeat;
+    background-position: 0 0;
+    background-size: 100%;
+    width: 100%;
+    max-width: 22.5rem;
+    height: 18.5rem;
+    z-index: -1;
+}
+
 .cabecalho__lista {
     display: flex;
     align-items: center;
     gap: 2rem;
+}
+
+.cabecalho-lista__item--logo {
+    display: none;
 }
 
 .cabecalho__link {
@@ -35,22 +53,11 @@
     border-radius: 50%
 }
 
-.cabecalho__fundo {
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: -1;
-    width: 100%;
-    height: 100vh;
-    background-image: url(../img/forma-1.svg);
-    background-repeat: no-repeat;
-}
-
 .cabecalho__patas {
     position: absolute;
     top: 0;
     right: 0;
-    width: 60%;
+    width: 100%;
     height: 100vh;
     background-image: url(../img/patas.svg);
     background-repeat: no-repeat;
@@ -59,9 +66,21 @@
 }
 
 @media screen and (min-width: 768px) {
-    .cabecalho__fundo {
-        width: 60%;
-        height: 80vh;
-        background-size: contain;
+    .cabecalho::before {
+        max-width: 28rem;
+        height: 24rem;
+    }
+
+    .cabecalho__lista {
+        gap: 3rem;
+    }
+
+    .cabecalho-lista__item--logo {
+        display: block;
+    }
+
+    .cabecalho-lista__img {
+        max-height: 1.875rem;
+        pointer-events: none;
     }
 }

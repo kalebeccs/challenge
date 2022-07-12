@@ -6,16 +6,20 @@
 @import url(./form/password.css);
 
 .formulario {
+    box-sizing: border-box;
     display: flex;
     flex-direction: column;
     gap: 1.25rem;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 22rem;
 }
 
 .formulario--cinza {
     background-color: var(--cinza-claro);
-    padding: 2rem 1rem;
-    margin: 0 1.5rem 1rem 1.5rem;
+    padding: 1.25rem 1rem;
     border-radius: .5rem;
+
 }
 
 .formulario__titulo {
@@ -43,4 +47,10 @@
 
 .formulario__file {
     display: none;
+}
+
+@media screen and (min-width: 768px) {
+    .formulario--cinza {
+        max-width: 32rem;
+    }
 }
