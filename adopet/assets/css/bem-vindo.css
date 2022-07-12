@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: column;
     width: 70%;
-    margin: 0 auto;
+    margin: 3rem auto 15.5rem auto;
     gap: 1rem;
 }
 
@@ -32,7 +32,11 @@
     flex-direction: column;
     gap: 1rem;
     margin: .5rem auto 0 auto;
-    width: 90%;
+    align-items: center;
+}
+
+.bem-vindo__botoes .formulario__botao {
+    min-width: 191px;
 }
 
 .bem-vindo__ilustracao {

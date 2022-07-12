@@ -5,9 +5,11 @@
     color: var(--branco);
     font-weight: 600;
     font-size: 1rem;
-    padding: .75rem 0;
+    padding: .75rem;
     border-radius: .5rem;
     cursor: pointer;
+    align-self: center;
+    min-width: 9.25rem;
 }
 
 .formulario__botao:hover {

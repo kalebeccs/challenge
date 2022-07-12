@@ -35,6 +35,7 @@ body {
     text-align: center;
     display: flex;
     flex-direction: column;
+    min-height: 100vh;
 }
 
 .index {
@@ -43,8 +44,7 @@ body {
 
 .conteudo {
     position: relative;
-    padding-top: 5rem;
-    min-height: calc(100vh - 110px);
+    flex-grow: 1;
 }
 
 .conteudo__forma {
