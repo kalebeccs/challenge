@@ -33,3 +33,8 @@
 .formulario__input--branco::placeholder {
     text-align: left;
 }
+
+.formulario__field--invalido .formulario__input {
+    background-color: var(--vermelho-claro);
+    border-color: var(--vermelho);
+}

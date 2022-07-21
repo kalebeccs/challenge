@@ -1,7 +1,3 @@
-.formulario__label {
-
-}
-
 .formulario__label--azul {
     color: var(--azul);
     font-weight: 600;
@@ -13,4 +9,8 @@
 .formulario__label--foto {
     display: flex;
     flex-direction: column;
+}
+
+.formulario__field--invalido label {
+    color: var(--vermelho);
 }

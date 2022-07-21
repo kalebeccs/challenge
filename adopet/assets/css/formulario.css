@@ -49,6 +49,17 @@
     display: none;
 }
 
+.formulario__mensagem-erro {
+    display: none;
+}
+
+.formulario__field--invalido .formulario__mensagem-erro {
+    display: block;
+    color: var(--vermelho);
+    font-size: .875rem;
+    margin-top: .25rem;
+}
+
 @media screen and (min-width: 768px) {
     .formulario--cinza {
         max-width: 32rem;
