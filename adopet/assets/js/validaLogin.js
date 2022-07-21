@@ -3,7 +3,7 @@ const mensagensDeErro = {
         valueMissing: 'O campo de email não pode estar vazio.',
         typeMismatch: 'O email digitado não é valido'
     },
-    password: {
+    senha: {
         valueMissing: 'O campo de senha não pode estar vazio.',
         patternMismatch: 'A senha deve conter entre 8 e 20 caracteres, deve conter pelo menos uma letra maiuscula, uma letra minuscula e um numero.'
     }
@@ -47,7 +47,7 @@ function errorMessage(input) {
     let mensagem = '';
     tiposDeErro.forEach(erro => {
         if (input.validity[erro]) {
-            mensagem = mensagensDeErro[input.type][erro];
+            mensagem = mensagensDeErro[input.dataset.tipo][erro];
         }
     });
 
