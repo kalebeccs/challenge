@@ -38,3 +38,8 @@
     background-color: var(--vermelho-claro);
     border-color: var(--vermelho);
 }
+
+.formulario__field--invalido .formulario__input::placeholder {
+    color: var(--vermelho);
+    opacity: 0.5;
+}
